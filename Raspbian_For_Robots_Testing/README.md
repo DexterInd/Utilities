@@ -7,10 +7,10 @@ This is testing for Raspbian for Robots.
 
 General Tests:  Run and Check for Errors
 =====================================
--[ ] Shellinabox - Login and test.  
--[ ] noVNC - Login and test.
--[ ] Dexter Industries Update - Run the update once.
--[ ] Scratch GUI - Run the Scratch GUI once.  
+- [ ] Shellinabox - Login and test.  
+- [ ] noVNC - Login and test.
+- [ ] Dexter Industries Update - Run the update once.
+- [ ] Scratch GUI - Run the Scratch GUI once.  
 
 Desktop Tests:  Run These Programs to Make Sure They Work
 =====================================
