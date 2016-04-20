@@ -11,6 +11,7 @@ General Tests:  Run and Check for Errors
 - [ ] noVNC - Login and test.
 - [ ] Dexter Industries Update - Run the update once.
 - [ ] Scratch GUI - Run the Scratch GUI once.  
+- [ ] Try to change the hostname.
 
 Desktop Tests:  Run These Programs to Make Sure They Work
 =====================================
