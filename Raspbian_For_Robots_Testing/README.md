@@ -32,7 +32,7 @@ Branding:
 =====================================
 - [ ] Dexter industries Logo on Desktop.
 - [ ] White Desktop Background.
-
+- [ ] Small Dex logo in menu at top left (Jessie)
 
 Functional Testing:  Run the test with the hardware.
 =====================================
