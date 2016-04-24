@@ -12,6 +12,8 @@ General Tests:  Run and Check for Errors
 - [ ] Dexter Industries Update - Run the update once.
 - [ ] Scratch GUI - Run the Scratch GUI once.  
 - [ ] Try to change the hostname.
+- [ ] Run as headless on a network.
+- [ ] Run with an HDMI monitor, USB keyboard, USB mouse.
 
 Desktop Tests:  Run These Programs to Make Sure They Work
 =====================================
@@ -40,3 +42,11 @@ Functional Testing:  Run the test with the hardware.
 - [ ] GoPiGo - Run the test program from the Desktop GUI.
 - [ ] BrickPi - Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
 
+Publishing Tasks
+=====================================
+- [ ] Generate MD5
+- [ ] Make MD5 Text file, Screenshot.
+- [ ] Zip file
+- [ ] Rar file
+- [ ] Google Drive
+- [ ] Sourceforge
