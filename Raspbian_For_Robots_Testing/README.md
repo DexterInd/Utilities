@@ -15,12 +15,13 @@ General Tests:  Run and Check for Errors
 - [ ] Test change the hostname.
 - [ ] Run as headless on a network.
 - [ ] Run with an HDMI monitor, USB keyboard, USB mouse.
+- [ ] Boot on the Pi B+
 - [ ] Boot on the Pi 2
 - [ ] Boot on the Pi 3
 
 Desktop Tests:  Run These Programs to Make Sure They Work
 =====================================
-- [ ] Line Follower Calibration
+- [ ] Line Follower Calibration - verify files are saved in /home/pi
 - [ ] IR Receiver Setup
 - [ ] Test and Troubleshoot
 - [ ] Backup Files
@@ -45,10 +46,13 @@ Functional Testing:  Run the test with the hardware.
 - [ ] BrickPi - Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
 - [ ] Update the firmware of the GrovePi or GoPiGo to test AVRDude
 - [ ] Run BrickPi Scratch Example Program
+- [ ] Create new BrickPi Scratch program - example: broadcast MAE, broadcast MA200
 - [ ] Run GrovePi Scratch Example Program
+- [ ] Create new GrovePi Scratch program - 
 - [ ] Run GoPiGo Scratch Example Program
+- [ ] Create new GoPiGo Scratch Program - example: broadcast forward
 
-Publishing Tasks
+Publishing Tasks for Raspbian for Robots
 =====================================
 - [ ] Generate MD5
 - [ ] Make MD5 Text file, Screenshot.
@@ -61,3 +65,14 @@ Publishing Tasks
 Cinch
 =====================================
 - [ ] Run Cinch and connect.
+
+
+Publishing Tasks for Cinch
+=====================================
+- [ ] Generate MD5
+- [ ] Make MD5 Text file, Screenshot.
+- [ ] Zip file
+- [ ] Rar file
+- [ ] Google Drive
+- [ ] Sourceforge
+
