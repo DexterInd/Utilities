@@ -12,7 +12,7 @@ General Tests:  Run and Check for Errors
 - [ ] Dexter Industries Update - Run the update once on Jessie.
 - [ ] Dexter Industries Update - Run the update once on Wheezy.
 - [ ] Scratch GUI - Run the Scratch GUI once.  
-- [ ] Try to change the hostname.
+- [ ] Test change the hostname.
 - [ ] Run as headless on a network.
 - [ ] Run with an HDMI monitor, USB keyboard, USB mouse.
 - [ ] Boot on the Pi 2
@@ -44,6 +44,9 @@ Functional Testing:  Run the test with the hardware.
 - [ ] GoPiGo - Run the test program from the Desktop GUI.
 - [ ] BrickPi - Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
 - [ ] Update the firmware of the GrovePi or GoPiGo to test AVRDude
+- [ ] Run BrickPi Scratch Example Program
+- [ ] Run GrovePi Scratch Example Program
+- [ ] Run GoPiGo Scratch Example Program
 
 Publishing Tasks
 =====================================
@@ -53,3 +56,8 @@ Publishing Tasks
 - [ ] Rar file
 - [ ] Google Drive
 - [ ] Sourceforge
+
+
+Cinch
+=====================================
+- [ ] Run Cinch and connect.
