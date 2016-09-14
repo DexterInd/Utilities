@@ -57,6 +57,7 @@ Functional Testing:  Run the test with the hardware.
 
 Publishing Tasks for Raspbian for Robots
 =====================================
+- [ ] Change version number in Desktop/Version
 - [ ] Generate MD5
 - [ ] Make MD5 Text file, Screenshot.
 - [ ] Zip file
