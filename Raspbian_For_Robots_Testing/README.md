@@ -33,6 +33,7 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] Are the serial lines on by default?
 - [ ] Is the camera enabled?  Run `sudo raspistill -o 1.jpg`
 - [ ] Is the recovery script in /home/pi directory there?
+- [ ] Run IR ~/Desktop/GoPiGo/Software/Python/ir_remote_control/gopigo_ir_control_bot.py  
 
 Branding:
 =====================================
