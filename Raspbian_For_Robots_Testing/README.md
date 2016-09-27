@@ -69,6 +69,8 @@ Publishing Tasks for Raspbian for Robots
 Cinch
 =====================================
 - [ ] Run Cinch and connect.
+- [ ] change hostname and run Cinch and connect - should use new SSID
+
 
 
 Publishing Tasks for Cinch
