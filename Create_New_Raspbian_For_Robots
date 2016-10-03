@@ -1,0 +1,17 @@
+- Download the official Raspbian from the foundation
+- Run https://github.com/DexterInd/Raspbian_For_Robots/blob/master/jessie_update/jessie-heavy-upgrade.sh
+on that image
+- Manually start tightvncserver
+- Enter robots1234 password when required
+- Run these two lines:
+    https://github.com/DexterInd/Raspbian_For_Robots/blob/master/jessie_update/tightvncserver.sh#L23-L24
+  sudo systemctl enable vncserver@1.service
+  sudo systemctl start vncserver@1.service
+- Manually start novnc:
+  sudo systemctl enable novnc.service
+  sudo systemctl start novnc.service
+Reboot and check that VNC, noVNC, Shellinabox are all fine
+Run DI_Update
+Start piclone and clone card onto a 4Gig Sandisk card
+- enable Pi Camera
+
