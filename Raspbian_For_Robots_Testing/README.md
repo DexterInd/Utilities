@@ -54,6 +54,7 @@ Functional Testing:  Run the test with the hardware.
 - [ ] Create new GrovePi Scratch program - 
 - [ ] Run GoPiGo Scratch Example Program
 - [ ] Create new GoPiGo Scratch Program - example: broadcast forward
+- [ ] Run Spy vs Spi startup, test for success.
 
 Publishing Tasks for Raspbian for Robots
 =====================================
