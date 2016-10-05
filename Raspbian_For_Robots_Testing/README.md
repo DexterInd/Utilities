@@ -33,7 +33,11 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] Are the serial lines on by default?
 - [ ] Is the camera enabled?  Run `sudo raspistill -o 1.jpg`
 - [ ] Is the recovery script in /home/pi directory there?
-- [ ] Run IR ~/Desktop/GoPiGo/Software/Python/ir_remote_control/gopigo_ir_control_bot.py  
+- [ ] Enable the IR receiver from *Advanced Communications Options* on the desktop and reboot
+- [ ] Connect the IR receiver to the Serial port on the GoPiGo
+- [ ] Run `sudo monit status` and check if di_ir_reader is running
+- [ ] Run `ir_receiver_example.py` in /home/pi/Desktop/GoPiGo/Software/Python/ir_remote_control/gobox_ir_receiver_libs and press buttons on the remote and see if it works
+- [ ] Run `GoPiGo_IR_Remote_Example.sb` for the IR receiver for scratch with GoPiGo
 
 Branding:
 =====================================
