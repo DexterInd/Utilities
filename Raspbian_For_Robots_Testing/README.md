@@ -9,6 +9,7 @@ General Tests:  Run and Check for Errors
 =====================================
 - [ ] Shellinabox - Login and test.  
 - [ ] noVNC - Login and test.
+- [ ] VNC Viewer - Login and test. Verify that cursor is all right
 - [ ] Dexter Industries Update - Run the update once on Jessie.
 - [ ] Dexter Industries Update - Run the update once on Wheezy.
 - [ ] Scratch GUI - Run the Scratch GUI once.  
@@ -43,7 +44,7 @@ Branding:
 =====================================
 - [ ] Dexter industries Logo on Desktop.
 - [ ] White Desktop Background.
-- [ ] Small Dex logo in menu at top left (Jessie)
+- [ ] Small Dex logo in menu at top left (Jessie) (not for now)
 
 Functional Testing:  Run the test with the hardware.
 =====================================
