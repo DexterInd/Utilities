@@ -59,7 +59,7 @@ Functional Testing:  Run the test with the hardware.
 - [ ] Create new GrovePi Scratch program - 
 - [ ] Run GoPiGo Scratch Example Program
 - [ ] Create new GoPiGo Scratch Program - example: broadcast forward
-- [ ] Run Spy vs Spi startup, test for success.
+- [ ] Run Spy vs Spi startup, test for success.  Connect jumpers to GPIO9 and GPIO11 and 3V3.  Connect I2C display to GrovePi Port.  If succesful, it should turn the display on and play a dialog.
 
 Publishing Tasks for Raspbian for Robots
 =====================================
