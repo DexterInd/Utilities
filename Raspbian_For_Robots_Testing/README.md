@@ -7,6 +7,7 @@ This is testing for Raspbian for Robots.
 
 General Tests:  Run and Check for Errors
 =====================================
+- [ ] Does it fit on a 4Gig Sandisk SD card?  
 - [ ] Shellinabox - Login and test.  
 - [ ] noVNC - Login and test.
 - [ ] VNC Viewer - Login and test. Verify that cursor is all right
@@ -74,6 +75,7 @@ Publishing Tasks for Raspbian for Robots
 
 Cinch
 =====================================
+- [ ] Does it fit on a 4Gig Sandisk SD card?  
 - [ ] Run Cinch and connect.
 - [ ] change hostname and run Cinch and connect - should use new SSID
 
