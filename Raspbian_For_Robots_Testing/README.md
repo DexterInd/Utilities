@@ -83,6 +83,7 @@ Cinch
 
 Publishing Tasks for Cinch
 =====================================
+- [ ] Reduce the Image Size with Piclone
 - [ ] Generate MD5
 - [ ] Make MD5 Text file, Screenshot.
 - [ ] Zip file
