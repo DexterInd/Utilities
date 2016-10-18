@@ -1,0 +1,94 @@
+{
+	"Commands":{
+
+		"TopSection": "GoPiGo Commands",
+
+		"Columns":[
+
+			{"column":[
+
+				{"SectionTitle":"Move the GoPiGo Forward",
+					"Block":[
+						{"image":"forward.gif"},
+						{"image":"forwardX.gif"}
+					]
+				},
+				{"SectionTitle":"Stop the GoPiGo",
+					"Block":[
+						{"image": "stop.gif"}
+					]
+				}
+			]},
+
+			{"column":[	
+
+				{"SectionTitle":"Move the GoPiGo Back",
+					"Block":[
+						{"image":"backward.gif"},
+						{"image":"backwardX.gif"}
+					]
+				}
+			]},
+
+			{"column":[			
+
+				{"SectionTitle":"Set GoPiGo Speed",
+					"Block":[
+						{"image":"setspeed.gif",
+						"legend":"from 0 to 250"}
+					]
+				},
+				{"SectionTitle":"Increase GoPiGo Speed",
+					"Block":[
+						{"image":"increasespeed.gif"}
+					]
+				},
+				{"SectionTitle":"Decrease GoPiGo Speed",
+					"Block":[
+						{"image":"decreasespeed.gif"}
+					]
+				}
+			]},
+
+			{"column":[	
+
+				{"SectionTitle":"Turn GoPiGo to the Right",
+					"Block":[
+						{"image":"right.gif"},
+						{"image":"rightX.gif",
+							"legend":"in degrees"}
+					]
+				},
+				{"SectionTitle":"Turn GoPiGo to the Left",
+
+					"Block":[
+						{"image":"left.gif"},
+						{"image":"leftX.gif"}
+					]
+				}
+
+			]},
+
+			{"column":[					
+				{"SectionTitle":"Turn on/off Left LED",
+					"Block":[
+						{"image":"ledl.gif"},
+						{"image":"ledloff.gif"}
+					]
+				},
+				{"SectionTitle":"Turn on/off Right LED",
+					"Block":[
+						{"image":"ledr.gif"},
+						{"image":"ledroff.gif"}
+					]
+				}
+
+			]}
+		]
+	},
+
+	"Sensors":{
+		"TopSection": "GoPiGo Sensors",
+		"Columns":[]
+	}
+}
