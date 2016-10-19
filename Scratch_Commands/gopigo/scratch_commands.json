@@ -18,9 +18,10 @@
 						{"image": "stop.gif"}
 					]
 				}
+
 			]},
 
-			{"column":[	
+			{"column":[			
 
 				{"SectionTitle":"Move the GoPiGo Back",
 					"Block":[
@@ -29,9 +30,7 @@
 					]
 				}
 			]},
-
-			{"column":[			
-
+			{"column":[
 				{"SectionTitle":"Set GoPiGo Speed",
 					"Block":[
 						{"image":"setspeed.gif",
@@ -89,6 +88,44 @@
 
 	"Sensors":{
 		"TopSection": "GoPiGo Sensors",
-		"Columns":[]
+		"Columns":[
+			{"column":[					
+				{"SectionTitle":"Distance Sensor (A1)",
+					"Block":[
+						{"image":"distance.gif"}
+					]
+				},
+				{"SectionTitle":"Light Sensor (A1)",
+					"Block":[
+						{"image":"light.gif"}
+					]
+				},
+				{"SectionTitle":"Sound Sensor (A1)",
+					"Block":[
+						{"image":"sound.gif"}
+					]
+				}				
+
+			]},
+			{"column":[					
+				{"SectionTitle":"Touch Sensor (D11 A1/15)",
+					"Block":[
+						{"image":"button.gif"}
+					]
+				},
+				{"SectionTitle":"Motion Sensor (D11)",
+					"Block":[
+						{"image":"motion.gif"}
+					]
+				},
+				{"SectionTitle":"Infrared Sensor (A1)",
+					"Block":[
+						{"image":"ir.gif"}
+					]
+				}				
+
+			]}	
+
+		]
 	}
 }
