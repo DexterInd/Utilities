@@ -193,7 +193,7 @@
 						{"image":"ir.gif"}
 					]
 				},
-				{"SectionTitle":"DTH (Serial)",
+				{"SectionTitle":"DHT (Serial)",
 					"Block":[
 						{"image":"dht.gif"}
 					]
