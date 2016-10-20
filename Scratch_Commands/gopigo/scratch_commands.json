@@ -38,7 +38,12 @@
 					"Block":[					
 							{"image":"backwardX.gif"}
 					]
-				}
+				},
+				{"SectionTitle":"Set Wheel Rotation",
+					"Block":[					
+							{"image":"wheelrot.gif"}
+					]
+				}				
 			]},
 			{"column":[
 				{"SectionTitle":"Set GoPiGo Speed",
