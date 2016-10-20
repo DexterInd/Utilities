@@ -9,8 +9,10 @@
 
 				{"SectionTitle":"Move the GoPiGo Forward",
 					"Block":[
-						{"image":"forward.gif"},
-						{"image":"forwardX.gif"}
+						{"image":"forward.gif",
+						 "legend":"forward until stopped"},
+						{"image":"forwardX.gif",
+						 "legend":"forward 20 ticks"}
 					]
 				},
 				{"SectionTitle":"Stop the GoPiGo",
@@ -89,43 +91,84 @@
 	"Sensors":{
 		"TopSection": "GoPiGo Sensors",
 		"Columns":[
+
+			{"StartColumn": "Analog Sensors (port A1)"},
+			
 			{"column":[					
 				{"SectionTitle":"Distance Sensor (A1)",
 					"Block":[
 						{"image":"distance.gif"}
 					]
 				},
+				{"SectionTitle":"Sound Sensor (A1)",
+					"Block":[
+						{"image":"sound.gif"}
+					]
+				},
+				{"SectionTitle":"Touch Sensor (A1)",
+					"Block":[
+						{"image":"buttonA.gif"}
+					]
+				}				
+
+			]},
+			
+			{"column":[	
 				{"SectionTitle":"Light Sensor (A1)",
 					"Block":[
 						{"image":"light.gif"}
 					]
 				},
-				{"SectionTitle":"Sound Sensor (A1)",
+				{"SectionTitle":"Servo (A1)",
 					"Block":[
-						{"image":"sound.gif"}
+						{"image":"servo.gif"}
 					]
-				}				
+				}
 
 			]},
-			{"column":[					
-				{"SectionTitle":"Touch Sensor (D11 A1/15)",
-					"Block":[
-						{"image":"button.gif"}
-					]
-				},
+			
+			{"StartColumn": "Digital Sensors (port D11)"},
+			
+			{"column":[
 				{"SectionTitle":"Motion Sensor (D11)",
 					"Block":[
 						{"image":"motion.gif"}
 					]
 				},
-				{"SectionTitle":"Infrared Sensor (A1)",
+				{"SectionTitle":"Buzzzer (D11)",
+					"Block":[
+						{"image":"buzzer.gif"}
+					]
+				},
+				{"SectionTitle":"Touch Sensor (D11)",
+					"Block":[
+						{"image":"buttonD.gif"}
+					]
+				}
+			]},
+			{"column":[
+				{"SectionTitle":"LED Sensor (D11)",
+					"Block":[
+						{"image":"led.gif"}
+					]
+				}
+			]},
+
+			{"StartColumn": "Serial Sensors"},
+			
+			{"column":[
+
+				{"SectionTitle":"Infrared Sensor (Serial)",
 					"Block":[
 						{"image":"ir.gif"}
 					]
-				}				
-
-			]}	
-
+				},
+				{"SectionTitle":"Line Follower (I2C)",
+					"Block":[
+						{"image":"line.gif"}
+					]
+				}
+			]}
 		]
 	}
 }
