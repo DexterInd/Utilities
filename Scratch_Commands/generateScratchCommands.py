@@ -19,7 +19,7 @@ def setColumnWidth(nbcolumns):
 	'''
 	global columnWidth
 	columnWidth = imagesize[x] / nbcolumns
-	columnWidth = 230
+	columnWidth = 250
 	print "Setting columnWidth to ",columnWidth
 
 imagesize=(1900,1900)
@@ -58,6 +58,7 @@ print("{} Top Items".format(len(parsed_commands)))
 for top,content in parsed_commands.iteritems():
 	posH=50
 	posV=0
+	maxcolumnheight=0
 	print(parsed_commands[top]["TopSection"])
 	boxV=vOffset
 	svg_document.add(svg_document.text(parsed_commands[top]["TopSection"], insert = (posH, boxV)))
@@ -77,7 +78,7 @@ for top,content in parsed_commands.iteritems():
 
 			# go into each set of blocks
 			for block in column['column']:
-				title = svg_document.text(block["SectionTitle"],insert=(posH,posV),style = "font-size:18px;")
+				title = svg_document.text(block["BlockTitle"],insert=(posH,posV),style = "font-size:18px;")
 				svg_document.add(title)
 				posV+=10
 				for b in block["Block"]:

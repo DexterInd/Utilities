@@ -7,19 +7,19 @@
 
 			{"column":[
 
-				{"SectionTitle":"Move the GoPiGo Forward",
+				{"BlockTitle":"Move the GoPiGo Forward",
 					"Block":[
 						{"image":"forward.gif",
 						 "legend":"forward until stopped"}
 					]
 				},
-				{"SectionTitle":"Move Forward by 20 ticks",
+				{"BlockTitle":"Move Forward by 20 ticks",
 					"Block":[					
 						{"image":"forwardX.gif",
 						 "legend":"forward 20 ticks"}
 					]
 				},
-				{"SectionTitle":"Stop the GoPiGo",
+				{"BlockTitle":"Stop the GoPiGo",
 					"Block":[
 						{"image": "stop.gif"}
 					]
@@ -29,35 +29,35 @@
 
 			{"column":[			
 
-				{"SectionTitle":"Move the GoPiGo Back",
+				{"BlockTitle":"Move the GoPiGo Back",
 					"Block":[
 						{"image":"backward.gif"}
 					]
 				},
-				{"SectionTitle":"Move Back by 20 ticks",
+				{"BlockTitle":"Move Back by 20 ticks",
 					"Block":[					
 							{"image":"backwardX.gif"}
 					]
 				},
-				{"SectionTitle":"Set Wheel Rotation",
+				{"BlockTitle":"Set Wheel Rotation",
 					"Block":[					
 							{"image":"wheelrot.gif"}
 					]
 				}				
 			]},
 			{"column":[
-				{"SectionTitle":"Set GoPiGo Speed",
+				{"BlockTitle":"Set GoPiGo Speed",
 					"Block":[
 						{"image":"setspeed.gif",
 						"legend":"from 0 to 250"}
 					]
 				},
-				{"SectionTitle":"Increase GoPiGo Speed",
+				{"BlockTitle":"Increase GoPiGo Speed",
 					"Block":[
 						{"image":"increasespeed.gif"}
 					]
 				},
-				{"SectionTitle":"Decrease GoPiGo Speed",
+				{"BlockTitle":"Decrease GoPiGo Speed",
 					"Block":[
 						{"image":"decreasespeed.gif"}
 					]
@@ -66,24 +66,24 @@
 
 			{"column":[	
 
-				{"SectionTitle":"Turn GoPiGo to the Right",
+				{"BlockTitle":"Turn GoPiGo to the Right",
 					"Block":[
 						{"image":"right.gif"}
 					]
 				},
-				{"SectionTitle":"Turn Right 90 degrees",
+				{"BlockTitle":"Turn Right 90 degrees",
 					"Block":[
 						{"image":"rightX.gif",
 							"legend":"in degrees"}
 					]
 				},
-				{"SectionTitle":"Turn GoPiGo to the Left",
+				{"BlockTitle":"Turn GoPiGo to the Left",
 
 					"Block":[
 						{"image":"left.gif"}
 					]
 				},
-				{"SectionTitle":"Turn Left 90 degrees",
+				{"BlockTitle":"Turn Left 90 degrees",
 					"Block":[
 						{"image":"leftX.gif"}
 					]
@@ -92,22 +92,22 @@
 			]},
 
 			{"column":[					
-				{"SectionTitle":"Turn Left LED on",
+				{"BlockTitle":"Turn Left LED on",
 					"Block":[
 						{"image":"ledl.gif"}
 					]
 				},
-				{"SectionTitle":"Turn Left LED off",
+				{"BlockTitle":"Turn Left LED off",
 					"Block":[
 						{"image":"ledloff.gif"}
 					]
 				},
-				{"SectionTitle":"Turn Right LED on",
+				{"BlockTitle":"Turn Right LED on",
 					"Block":[
 						{"image":"ledr.gif"}
 					]
 				},
-				{"SectionTitle":"Turn Right LED on",
+				{"BlockTitle":"Turn Right LED on",
 					"Block":[
 						{"image":"ledroff.gif"}
 					]
@@ -122,17 +122,17 @@
 		"Columns":[
 
 			{"column":[					
-				{"SectionTitle":"Distance Sensor (A1)",
+				{"BlockTitle":"Distance Sensor (A1)",
 					"Block":[
 						{"image":"distance.gif"}
 					]
 				},
-				{"SectionTitle":"Sound Sensor (A1)",
+				{"BlockTitle":"Sound Sensor (A1)",
 					"Block":[
 						{"image":"sound.gif"}
 					]
 				},
-				{"SectionTitle":"Touch Sensor (A1)",
+				{"BlockTitle":"Touch Sensor (A1)",
 					"Block":[
 						{"image":"buttonA.gif"}
 					]
@@ -141,12 +141,12 @@
 			]},
 			
 			{"column":[	
-				{"SectionTitle":"Light Sensor (A1)",
+				{"BlockTitle":"Light Sensor (A1)",
 					"Block":[
 						{"image":"light.gif"}
 					]
 				},
-				{"SectionTitle":"Servo (A1)",
+				{"BlockTitle":"Servo (A1)",
 					"Block":[
 						{"image":"servo.gif"}
 					]
@@ -155,17 +155,17 @@
 			]},
 			
 			{"column":[
-				{"SectionTitle":"Motion Sensor (D11)",
+				{"BlockTitle":"Motion Sensor (D11)",
 					"Block":[
 						{"image":"motion.gif"}
 					]
 				},
-				{"SectionTitle":"Buzzer (D11)",
+				{"BlockTitle":"Buzzer (D11)",
 					"Block":[
 						{"image":"buzzer.gif"}
 					]
 				},
-				{"SectionTitle":"Touch Sensor (D11)",
+				{"BlockTitle":"Touch Sensor (D11)",
 					"Block":[
 						{"image":"buttonD.gif"}
 					]
@@ -173,17 +173,17 @@
 			]},
 
 			{"column":[
-				{"SectionTitle":"LED Sensor (D11)",
+				{"BlockTitle":"LED Sensor (D11)",
 					"Block":[
 						{"image":"led.gif"}
 					]
 				},
-				{"SectionTitle":"Set Photo Folder",
+				{"BlockTitle":"Set Photo Folder",
 					"Block":[
 						{"image":"folder.gif"}
 					]
 				},
-				{"SectionTitle":"Take a Picture",
+				{"BlockTitle":"Take a Picture",
 					"Block":[
 						{"image":"camera.gif"}
 					]
@@ -193,17 +193,17 @@
 
 			{"column":[
 
-				{"SectionTitle":"Infrared Sensor (Serial)",
+				{"BlockTitle":"Infrared Sensor (Serial)",
 					"Block":[
 						{"image":"ir.gif"}
 					]
 				},
-				{"SectionTitle":"DHT (Serial)",
+				{"BlockTitle":"DHT (Serial)",
 					"Block":[
 						{"image":"dht.gif"}
 					]
 				},
-				{"SectionTitle":"Line Follower (I2C)",
+				{"BlockTitle":"Line Follower (I2C)",
 					"Block":[
 						{"image":"line.gif"}
 					]
