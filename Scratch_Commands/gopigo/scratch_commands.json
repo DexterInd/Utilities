@@ -10,7 +10,11 @@
 				{"SectionTitle":"Move the GoPiGo Forward",
 					"Block":[
 						{"image":"forward.gif",
-						 "legend":"forward until stopped"},
+						 "legend":"forward until stopped"}
+					]
+				},
+				{"SectionTitle":"Move Forward by 20 ticks",
+					"Block":[					
 						{"image":"forwardX.gif",
 						 "legend":"forward 20 ticks"}
 					]
@@ -27,8 +31,12 @@
 
 				{"SectionTitle":"Move the GoPiGo Back",
 					"Block":[
-						{"image":"backward.gif"},
-						{"image":"backwardX.gif"}
+						{"image":"backward.gif"}
+					]
+				},
+				{"SectionTitle":"Move Back by 20 ticks",
+					"Block":[					
+							{"image":"backwardX.gif"}
 					]
 				}
 			]},
@@ -55,7 +63,11 @@
 
 				{"SectionTitle":"Turn GoPiGo to the Right",
 					"Block":[
-						{"image":"right.gif"},
+						{"image":"right.gif"}
+					]
+				},
+				{"SectionTitle":"Turn Right 90 degrees",
+					"Block":[
 						{"image":"rightX.gif",
 							"legend":"in degrees"}
 					]
@@ -63,7 +75,11 @@
 				{"SectionTitle":"Turn GoPiGo to the Left",
 
 					"Block":[
-						{"image":"left.gif"},
+						{"image":"left.gif"}
+					]
+				},
+				{"SectionTitle":"Turn Left 90 degrees",
+					"Block":[
 						{"image":"leftX.gif"}
 					]
 				}
@@ -71,15 +87,23 @@
 			]},
 
 			{"column":[					
-				{"SectionTitle":"Turn on/off Left LED",
+				{"SectionTitle":"Turn Left LED on",
 					"Block":[
-						{"image":"ledl.gif"},
+						{"image":"ledl.gif"}
+					]
+				},
+				{"SectionTitle":"Turn Left LED off",
+					"Block":[
 						{"image":"ledloff.gif"}
 					]
 				},
-				{"SectionTitle":"Turn on/off Right LED",
+				{"SectionTitle":"Turn Right LED on",
 					"Block":[
-						{"image":"ledr.gif"},
+						{"image":"ledr.gif"}
+					]
+				},
+				{"SectionTitle":"Turn Right LED on",
+					"Block":[
 						{"image":"ledroff.gif"}
 					]
 				}
@@ -92,8 +116,6 @@
 		"TopSection": "GoPiGo Sensors",
 		"Columns":[
 
-			{"StartColumn": "Analog Sensors (port A1)"},
-			
 			{"column":[					
 				{"SectionTitle":"Distance Sensor (A1)",
 					"Block":[
@@ -127,15 +149,13 @@
 
 			]},
 			
-			{"StartColumn": "Digital Sensors (port D11)"},
-			
 			{"column":[
 				{"SectionTitle":"Motion Sensor (D11)",
 					"Block":[
 						{"image":"motion.gif"}
 					]
 				},
-				{"SectionTitle":"Buzzzer (D11)",
+				{"SectionTitle":"Buzzer (D11)",
 					"Block":[
 						{"image":"buzzer.gif"}
 					]
@@ -146,21 +166,36 @@
 					]
 				}
 			]},
+
 			{"column":[
 				{"SectionTitle":"LED Sensor (D11)",
 					"Block":[
 						{"image":"led.gif"}
 					]
+				},
+				{"SectionTitle":"Set Photo Folder",
+					"Block":[
+						{"image":"folder.gif"}
+					]
+				},
+				{"SectionTitle":"Take a Picture",
+					"Block":[
+						{"image":"camera.gif"}
+					]
 				}
+
 			]},
 
-			{"StartColumn": "Serial Sensors"},
-			
 			{"column":[
 
 				{"SectionTitle":"Infrared Sensor (Serial)",
 					"Block":[
 						{"image":"ir.gif"}
+					]
+				},
+				{"SectionTitle":"DTH (Serial)",
+					"Block":[
+						{"image":"dht.gif"}
 					]
 				},
 				{"SectionTitle":"Line Follower (I2C)",
