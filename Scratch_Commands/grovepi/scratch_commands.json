@@ -97,12 +97,12 @@
 						{"image":"distance.gif"}
 					]
 				},
-				{"BlockTitle":"Buzzer (PWM: D3,D5,D6)",
+				{"BlockTitle":"Buzzer (PWM: D3,D5,D6,D8)",
 					"Block":[
 						{"image":"buzzer.gif"}
 					]
 				},
-				{"BlockTitle":"LED (PWM: D3,D5,D6)",
+				{"BlockTitle":"LED (PWM: D3,D5,D6,D8)",
 					"Block":[
 						{"image":"ledPWM.gif"}
 					]
