@@ -54,7 +54,7 @@
 							
 			]},
 			{"column":[
-				{"BlockTitle":"Button Sensor (D)",
+				{"BlockTitle":"Touch Sensor (button) (D)",
 					"Block":[
 						{"image":"button.gif"}
 					]
@@ -128,6 +128,20 @@
 				{"BlockTitle":"Set LCD Text (I2C)",
 					"Block":[
 						{"image":"lcdTxt.gif"}
+					]
+				}
+			]}
+		]
+	},
+
+	"Sensors":{
+		"TopSection": "GrovePi Advanced Sensors",
+		"Columns":[
+
+			{"column":[
+				{"BlockTitle":"Moisture (A)",
+					"Block":[
+						{"image":"moisture.gif"}
 					]
 				}
 			]}
