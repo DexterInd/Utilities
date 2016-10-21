@@ -1,0 +1,214 @@
+{
+	"Commands":{
+
+		"TopSection": "GoPiGo Commands",
+
+		"Columns":[
+
+			{"column":[
+
+				{"BlockTitle":"Move the GoPiGo Forward",
+					"Block":[
+						{"image":"forward.gif",
+						 "legend":"forward until stopped"}
+					]
+				},
+				{"BlockTitle":"Move Forward by 20 ticks",
+					"Block":[					
+						{"image":"forwardX.gif",
+						 "legend":"forward 20 ticks"}
+					]
+				},
+				{"BlockTitle":"Stop the GoPiGo",
+					"Block":[
+						{"image": "stop.gif"}
+					]
+				}
+
+			]},
+
+			{"column":[			
+
+				{"BlockTitle":"Move the GoPiGo Back",
+					"Block":[
+						{"image":"backward.gif"}
+					]
+				},
+				{"BlockTitle":"Move Back by 20 ticks",
+					"Block":[					
+							{"image":"backwardX.gif"}
+					]
+				},
+				{"BlockTitle":"Set Wheel Rotation",
+					"Block":[					
+							{"image":"wheelrot.gif"}
+					]
+				}				
+			]},
+			{"column":[
+				{"BlockTitle":"Set GoPiGo Speed",
+					"Block":[
+						{"image":"setspeed.gif",
+						"legend":"from 0 to 250"}
+					]
+				},
+				{"BlockTitle":"Increase GoPiGo Speed",
+					"Block":[
+						{"image":"increasespeed.gif"}
+					]
+				},
+				{"BlockTitle":"Decrease GoPiGo Speed",
+					"Block":[
+						{"image":"decreasespeed.gif"}
+					]
+				}
+			]},
+
+			{"column":[	
+
+				{"BlockTitle":"Turn GoPiGo to the Right",
+					"Block":[
+						{"image":"right.gif"}
+					]
+				},
+				{"BlockTitle":"Turn Right 90 degrees",
+					"Block":[
+						{"image":"rightX.gif",
+							"legend":"in degrees"}
+					]
+				},
+				{"BlockTitle":"Turn GoPiGo to the Left",
+
+					"Block":[
+						{"image":"left.gif"}
+					]
+				},
+				{"BlockTitle":"Turn Left 90 degrees",
+					"Block":[
+						{"image":"leftX.gif"}
+					]
+				}
+
+			]},
+
+			{"column":[					
+				{"BlockTitle":"Turn Left LED on",
+					"Block":[
+						{"image":"ledl.gif"}
+					]
+				},
+				{"BlockTitle":"Turn Left LED off",
+					"Block":[
+						{"image":"ledloff.gif"}
+					]
+				},
+				{"BlockTitle":"Turn Right LED on",
+					"Block":[
+						{"image":"ledr.gif"}
+					]
+				},
+				{"BlockTitle":"Turn Right LED on",
+					"Block":[
+						{"image":"ledroff.gif"}
+					]
+				}
+
+			]}
+		]
+	},
+
+	"Sensors":{
+		"TopSection": "GoPiGo Sensors",
+		"Columns":[
+
+			{"column":[					
+				{"BlockTitle":"Distance Sensor (A1)",
+					"Block":[
+						{"image":"distance.gif"}
+					]
+				},
+				{"BlockTitle":"Sound Sensor (A1)",
+					"Block":[
+						{"image":"sound.gif"}
+					]
+				},
+				{"BlockTitle":"Touch Sensor (A1)",
+					"Block":[
+						{"image":"buttonA.gif"}
+					]
+				}				
+
+			]},
+			
+			{"column":[	
+				{"BlockTitle":"Light Sensor (A1)",
+					"Block":[
+						{"image":"light.gif"}
+					]
+				},
+				{"BlockTitle":"Servo (A1)",
+					"Block":[
+						{"image":"servo.gif"}
+					]
+				}
+
+			]},
+			
+			{"column":[
+				{"BlockTitle":"Motion Sensor (D11)",
+					"Block":[
+						{"image":"motion.gif"}
+					]
+				},
+				{"BlockTitle":"Buzzer (D11)",
+					"Block":[
+						{"image":"buzzer.gif"}
+					]
+				},
+				{"BlockTitle":"Touch Sensor (D11)",
+					"Block":[
+						{"image":"buttonD.gif"}
+					]
+				}
+			]},
+
+			{"column":[
+				{"BlockTitle":"LED Sensor (D11)",
+					"Block":[
+						{"image":"led.gif"}
+					]
+				},
+				{"BlockTitle":"Set Photo Folder",
+					"Block":[
+						{"image":"folder.gif"}
+					]
+				},
+				{"BlockTitle":"Take a Picture",
+					"Block":[
+						{"image":"camera.gif"}
+					]
+				}
+
+			]},
+
+			{"column":[
+
+				{"BlockTitle":"Infrared Sensor (Serial)",
+					"Block":[
+						{"image":"ir.gif"}
+					]
+				},
+				{"BlockTitle":"DHT (Serial)",
+					"Block":[
+						{"image":"dht.gif"}
+					]
+				},
+				{"BlockTitle":"Line Follower (I2C)",
+					"Block":[
+						{"image":"line.gif"}
+					]
+				}
+			]}
+		]
+	}
+}
