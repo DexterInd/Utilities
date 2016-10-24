@@ -49,12 +49,16 @@
 					"Block":[					
 						{"image":"rotary.gif"}
 					]
+				},
+				{"BlockTitle":"Distance Sensor (A/D)",
+					"Block":[
+						{"image":"distance.gif"}
+					]
 				}
-
 							
 			]},
 			{"column":[
-				{"BlockTitle":"Button Sensor (D)",
+				{"BlockTitle":"Touch Sensor (button) (D)",
 					"Block":[
 						{"image":"button.gif"}
 					]
@@ -92,11 +96,6 @@
 						{"image":"humidity.gif"}
 					]
 				},
-				{"BlockTitle":"Distance Sensor (D)",
-					"Block":[
-						{"image":"distance.gif"}
-					]
-				},
 				{"BlockTitle":"Buzzer (PWM: D3,D5,D6,D8)",
 					"Block":[
 						{"image":"buzzer.gif"}
@@ -128,6 +127,20 @@
 				{"BlockTitle":"Set LCD Text (I2C)",
 					"Block":[
 						{"image":"lcdTxt.gif"}
+					]
+				}
+			]}
+		]
+	},
+
+	"Sensors":{
+		"TopSection": "GrovePi Advanced Sensors",
+		"Columns":[
+
+			{"column":[
+				{"BlockTitle":"Moisture (A)",
+					"Block":[
+						{"image":"moisture.gif"}
 					]
 				}
 			]}

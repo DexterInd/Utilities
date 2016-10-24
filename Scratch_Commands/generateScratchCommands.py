@@ -20,7 +20,7 @@ def setColumnWidth(nbcolumns):
 	global columnWidth
 	columnWidth = imagesize[x] / nbcolumns
 	columnWidth = 250
-	print "Setting columnWidth to ",columnWidth
+	print ("Setting columnWidth to {}".format(columnWidth))
 
 imagesize=(1900,1900)
 columnWidth=0
@@ -55,7 +55,7 @@ svg_document = svgwrite.Drawing(filename = "{}.svg".format(robot),
 vOffset=breathingspace
 print("{} Top Items".format(len(parsed_commands)))
 # create a top level section
-for top,content in parsed_commands.iteritems():
+for (top,content) in parsed_commands.items(): 
 	posH=50
 	posV=0
 	maxcolumnheight=0
