@@ -49,8 +49,12 @@
 					"Block":[					
 						{"image":"rotary.gif"}
 					]
+				},
+				{"BlockTitle":"Distance Sensor (A/D)",
+					"Block":[
+						{"image":"distance.gif"}
+					]
 				}
-
 							
 			]},
 			{"column":[
@@ -90,11 +94,6 @@
 				{"BlockTitle":"DHT: Humidity (D)",
 					"Block":[
 						{"image":"humidity.gif"}
-					]
-				},
-				{"BlockTitle":"Distance Sensor (D)",
-					"Block":[
-						{"image":"distance.gif"}
 					]
 				},
 				{"BlockTitle":"Buzzer (PWM: D3,D5,D6,D8)",
