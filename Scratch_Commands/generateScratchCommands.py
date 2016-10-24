@@ -55,7 +55,7 @@ svg_document = svgwrite.Drawing(filename = "{}.svg".format(robot),
 vOffset=breathingspace
 print("{} Top Items".format(len(parsed_commands)))
 # create a top level section
-for (top,content) in parsed_commands.items():
+for (top,content) in parsed_commands.items(): 
 	posH=50
 	posV=0
 	maxcolumnheight=0
