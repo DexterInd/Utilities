@@ -1,0 +1,53 @@
+{
+	"Commands":{
+
+		"TopSection": "PivotPi Servo Commands",
+
+		"Columns":[
+
+			{"column":[
+
+				{"BlockTitle":"Pivot 1 to 90 degrees position",
+					"Block":[
+						{"image":"pivot190.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot 1 to maximum position",
+					"Block":[
+						{"image":"pivot1100percent.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot 1 to 0 degrees position",
+					"Block":[
+						{"image":"pivot10.gif"}
+					]
+				}
+			]},
+			{"column":[
+
+				{"BlockTitle":"Pivot LED 1 to max value",
+					"Block":[
+						{"image": "pivotled1100.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot LED 1 to 100%",
+					"Block":[
+						{"image": "pivotled1100percent.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot LED OFF",
+					"Block":[					
+						{"image":"pivotledoff.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot LED ON)",
+					"Block":[
+						{"image":"pivotledon.gif"}
+					]
+				}
+							
+			]}
+		]
+	}
+
+}
