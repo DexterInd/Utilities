@@ -150,6 +150,11 @@
 					"Block":[
 						{"image":"servo.gif"}
 					]
+				},
+				{"BlockTitle":"Line Follower (I2C)",
+					"Block":[
+						{"image":"line.gif"}
+					]
 				}
 
 			]},
@@ -178,21 +183,6 @@
 						{"image":"led.gif"}
 					]
 				},
-				{"BlockTitle":"Set Photo Folder",
-					"Block":[
-						{"image":"folder.gif"}
-					]
-				},
-				{"BlockTitle":"Take a Picture",
-					"Block":[
-						{"image":"camera.gif"}
-					]
-				}
-
-			]},
-
-			{"column":[
-
 				{"BlockTitle":"Infrared Sensor (Serial)",
 					"Block":[
 						{"image":"ir.gif"}
@@ -202,10 +192,24 @@
 					"Block":[
 						{"image":"dht.gif"}
 					]
-				},
-				{"BlockTitle":"Line Follower (I2C)",
+				}
+
+			]},
+
+			{"column":[
+				{"BlockTitle":"Set Photo Folder",
 					"Block":[
-						{"image":"line.gif"}
+						{"image":"folder.gif"}
+					]
+				},
+				{"BlockTitle":"Take a Picture",
+					"Block":[
+						{"image":"camera.gif"}
+					]
+				},
+				{"BlockTitle":"Speak out loud",
+					"Block":[
+						{"image":"speak.gif"}
 					]
 				}
 			]}
