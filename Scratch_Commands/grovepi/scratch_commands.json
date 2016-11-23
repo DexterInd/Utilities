@@ -108,7 +108,16 @@
 				}
 			]},
 			{"column":[
-
+				{"BlockTitle":"Set LCD Background Color (I2C)",
+					"Block":[
+						{"image":"lcdCol.gif"}
+					]
+				},
+				{"BlockTitle":"Set LCD Text (I2C)",
+					"Block":[
+						{"image":"lcdTxt.gif"}
+					]
+				},
 				{"BlockTitle":"Set Folder for Pictures",
 					"Block":[
 						{"image":"folder.gif"}
@@ -119,14 +128,9 @@
 						{"image":"picture.gif"}
 					]
 				},
-				{"BlockTitle":"Set LCD Background Color (I2C)",
+				{"BlockTitle":"Speak out loud",
 					"Block":[
-						{"image":"lcdCol.gif"}
-					]
-				},
-				{"BlockTitle":"Set LCD Text (I2C)",
-					"Block":[
-						{"image":"lcdTxt.gif"}
+						{"image":"speak.gif"}
 					]
 				}
 			]}
