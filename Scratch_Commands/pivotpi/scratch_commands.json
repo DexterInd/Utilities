@@ -30,6 +30,11 @@
 						{"image":"pivot1100percent.gif"}
 					]
 				},
+				{"BlockTitle":"Pivot 1 to halfway position",
+					"Block":[
+						{"image":"pivot50percent.gif"}
+					]
+				},
 				{"BlockTitle":"Pivot 1 to maximum position",
 					"Block":[
 						{"image":"pivot1100percent.gif"}
@@ -51,14 +56,14 @@
 						{"image": "pivotled0.gif"}
 					]
 				},
-				{"BlockTitle":"Pivot LED 1 to half value",
-					"Block":[
-						{"image": "pivotled50.gif"}
-					]
-				},
 				{"BlockTitle":"Pivot LED 1 to max value",
 					"Block":[
 						{"image": "pivotled1100.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot LED 1 to half value",
+					"Block":[
+						{"image": "pivotled50.gif"}
 					]
 				}
 			]},
@@ -68,26 +73,26 @@
 						{"image": "pivotled0percent.gif"}
 					]
 				},	
-				{"BlockTitle":"Pivot LED 1 to 50%",
-					"Block":[
-						{"image": "pivotled50percent.gif"}
-					]
-				},	
 				{"BlockTitle":"Pivot LED 1 to 100%",
 					"Block":[
 						{"image": "pivotled1100percent.gif"}
 					]
-				}						
+				},	
+				{"BlockTitle":"Pivot LED 1 to 50%",
+					"Block":[
+						{"image": "pivotled50percent.gif"}
+					]
+				}					
 			]},
 			{"column":[	
-				{"BlockTitle":"Pivot LED ON",
-					"Block":[
-						{"image":"pivotledon.gif"}
-					]
-				},
 				{"BlockTitle":"Pivot LED OFF",
 					"Block":[					
 						{"image":"pivotledoff.gif"}
+					]
+				},
+				{"BlockTitle":"Pivot LED ON",
+					"Block":[
+						{"image":"pivotledon.gif"}
 					]
 				}
 			]}
