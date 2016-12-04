@@ -7,6 +7,7 @@ This is testing for Raspbian for Robots.
 
 General Tests:  Run and Check for Errors
 =====================================
+- [ ] Is Minecraft Installed?
 - [ ] Does it fit on a 4Gig Sandisk SD card?  
 - [ ] Shellinabox - Login and test.  
 - [ ] noVNC - Login and test.
