@@ -63,6 +63,8 @@ Functional Testing:  Run the test with the hardware.
 - [ ] Run GoPiGo Scratch Example Program
 - [ ] Create new GoPiGo Scratch Program - example: broadcast forward
 - [ ] Check that SpyVsPis is removed
+= [ ] Check Copy/Paste in VNC and noNVC
+- [ ] Check Geany is not run as root
 
 Publishing Tasks for Raspbian for Robots
 =====================================
