@@ -24,7 +24,7 @@ General Tests:  Run and Check for Errors
 
 Desktop Tests:  Run These Programs to Make Sure They Work
 =====================================
-- [ ] Line Follower Calibration - verify files are saved in /home/pi
+- [ ] Line Follower Calibration - verify files are saved in /home/pi/Dexter
 - [ ] Test line follower in python and scratch
 - [ ] IR Receiver Setup
 - [ ] Test and Troubleshoot
