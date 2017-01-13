@@ -65,6 +65,7 @@ Functional Testing:  Run the test with the hardware.
 - [ ] Check that SpyVsPis is removed
 = [ ] Check Copy/Paste in VNC and noNVC
 - [ ] Check Geany is not run as root
+- [ ] Check Geany does not give write access to the Dexter Python examples
 
 Publishing Tasks for Raspbian for Robots
 =====================================
