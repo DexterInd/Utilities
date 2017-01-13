@@ -27,7 +27,7 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] Line Follower Calibration - verify files are saved in /home/pi/Dexter
 - [ ] Test line follower in python and scratch
 - [ ] IR Receiver Setup
-- [ ] Test and Troubleshoot
+- [ ] Test and Troubleshoot - should detect connected robot
 - [ ] Backup Files
 
 - [ ] Is all wifi information removed?
