@@ -41,6 +41,7 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] Run `sudo monit status` and check if di_ir_reader is running
 - [ ] Run `ir_receiver_example.py` in /home/pi/Desktop/GoPiGo/Software/Python/ir_remote_control/gobox_ir_receiver_libs and press buttons on the remote and see if it works
 - [ ] Run `GoPiGo_IR_Remote_Example.sb` for the IR receiver for scratch with GoPiGo
+- [ ] Check that folders appear for the detected robot and non-relevant folders get removed
 
 Branding:
 =====================================
