@@ -53,10 +53,13 @@ Functional Testing:  Run the test with the hardware.
 - [ ] GrovePi -  Run the GrovePi Hardware Test - GrovePi/Software/Python/GrovePi_Hardware_Test.py
 - [ ] GoPiGo - Run the test program from the Desktop GUI.
 - [ ] BrickPi - Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
+- [ ] BrickPi3 - Run the BrickPi3 Test - BrickPi3/Software/Python/Examples/Read_Info.py
 - [ ] Arduberry - Check that Arduino IDE is 1.6.0 and test that Serial Echo with Hellow world works
 - [ ] Update the firmware of the GrovePi or GoPiGo to test AVRDude
 - [ ] Run BrickPi Scratch Example Program
 - [ ] Create new BrickPi Scratch program - example: broadcast MAE, broadcast MA200
+- [ ] Run BrickPi3 Scratch Example Program
+- [ ] Create new BrickPi3 Scratch program
 - [ ] Run GrovePi Scratch Example Program
 - [ ] Create new GrovePi Scratch program - 
 - [ ] Run GoPiGo Scratch Example Program
