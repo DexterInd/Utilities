@@ -13,7 +13,6 @@ General Tests:  Run and Check for Errors
 - [ ] noVNC - Login and test.
 - [ ] VNC Viewer - Login and test. Verify that cursor is all right
 - [ ] Dexter Industries Update - Run the update once on Jessie.
-- [ ] Dexter Industries Update - Run the update once on Wheezy.
 - [ ] Scratch GUI - Run the Scratch GUI once.  
 - [ ] Test change the hostname.
 - [ ] Run as headless on a network.
@@ -68,6 +67,8 @@ Functional Testing:  Run the test with the hardware.
 = [ ] Check Copy/Paste in VNC and noNVC
 - [ ] Check Geany is not run as root
 - [ ] Check Geany does not give write access to the Dexter Python examples
+- [ ] Run a GoPiGo3 Python Example
+- [ ] Run a GoPiGo3 Scratch Example
 
 Publishing Tasks for Raspbian for Robots
 =====================================
