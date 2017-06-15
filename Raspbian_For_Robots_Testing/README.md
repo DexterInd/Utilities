@@ -1,19 +1,17 @@
 # Utilities
 Dexter Industries Utilities for Internal Use.
 
-
 This is testing for Raspbian for Robots.
-
 
 General Tests:  Run and Check for Errors
 =====================================
 - [ ] Is Minecraft Installed?
-- [ ] Does it fit on a 4Gig Sandisk SD card?  
-- [ ] Shellinabox - Login and test.  
+- [ ] Does it fit on a 4Gig Sandisk SD card? 
+- [ ] Shellinabox - Login and test. 
 - [ ] noVNC - Login and test.
-- [ ] VNC Viewer - Login and test. Verify that cursor is all right
-- [ ] Dexter Industries Update - Run the update once on Jessie.
-- [ ] Scratch GUI - Run the Scratch GUI once.  
+- [ ] VNC Viewer - Login and test. Verify that cursor is working.
+- [ ] Dexter Industries Update - Run the update once.
+- [ ] Scratch GUI - Run the Scratch GUI.
 - [ ] Test change the hostname.
 - [ ] Run as headless on a network.
 - [ ] Run with an HDMI monitor, USB keyboard, USB mouse.
@@ -53,7 +51,8 @@ Functional Testing:  Run the test with the hardware.
 - [ ] GoPiGo - Run the test program from the Desktop GUI.
 - [ ] BrickPi - Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
 - [ ] BrickPi3 - Run the BrickPi3 Test - BrickPi3/Software/Python/Examples/Read_Info.py
-- [ ] Arduberry - Check that Arduino IDE is 1.6.0 and test that Serial Echo with Hellow world works
+- [ ] GoPiGo3 - Run the hardware test - ~/Dexter/GoPiGo3/Software/Python/Examples/Read_Info.py
+- [ ] Arduberry - Check that Arduino IDE is 1.6.0 and test that Serial Echo with Hello world works
 - [ ] Update the firmware of the GrovePi or GoPiGo to test AVRDude
 - [ ] Run BrickPi Scratch Example Program
 - [ ] Create new BrickPi Scratch program - example: broadcast MAE, broadcast MA200
@@ -63,12 +62,16 @@ Functional Testing:  Run the test with the hardware.
 - [ ] Create new GrovePi Scratch program - 
 - [ ] Run GoPiGo Scratch Example Program
 - [ ] Create new GoPiGo Scratch Program - example: broadcast forward
+- [ ] Run GoPiGo3 Scratch Example Program
+- [ ] Create new GoPiGo3 Scratch Program - example: 
 - [ ] Check that SpyVsPis is removed
 = [ ] Check Copy/Paste in VNC and noNVC
 - [ ] Check Geany is not run as root
 - [ ] Check Geany does not give write access to the Dexter Python examples
-- [ ] Run a GoPiGo3 Python Example
-- [ ] Run a GoPiGo3 Scratch Example
+- [ ] GoPiGo3: Run a Python Example
+- [ ] GoPiGo3: Run a  Scratch Example
+- [ ] GoPiGo3: Test that `gopigo3_power.py` is running in the background when GoPiGo3 is attached.
+- [ ] GoPiGo3: Test that you can power on and off with the button.
 
 Publishing Tasks for Raspbian for Robots
 =====================================
