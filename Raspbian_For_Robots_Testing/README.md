@@ -26,7 +26,6 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] IR Receiver Setup
 - [ ] Test and Troubleshoot - should detect connected robot
 - [ ] Backup Files
-
 - [ ] Is all wifi information removed?
 - [ ] Is the trash can emptied?
 - [ ] Is the Desktop Version updated?  Is the date current?
@@ -39,7 +38,6 @@ Desktop Tests:  Run These Programs to Make Sure They Work
 - [ ] Run `ir_receiver_example.py` in /home/pi/Desktop/GoPiGo/Software/Python/ir_remote_control/gobox_ir_receiver_libs and press buttons on the remote and see if it works
 - [ ] Run `GoPiGo_IR_Remote_Example.sb` for the IR receiver for scratch with GoPiGo
 - [ ] Check that folders appear for the detected robot and non-relevant folders get removed
-
 - [ ] Check that SpyVsPis is removed
 = [ ] Check Copy/Paste in VNC and noNVC
 - [ ] Check Geany is not run as root
@@ -56,23 +54,18 @@ Functional Testing:  Run the test with the hardware.
 - [ ] GrovePi: Update the firmware of the GrovePi and GoPiGo to test AVRDude
 - [ ] GrovePi: Run Scratch Example Program
 - [ ] GrovePi: Create new Scratch program
-
 - [ ] GoPiGo: Run the test program from the Desktop GUI.
 - [ ] GoPiGo: Run Scratch Example Program
 - [ ] GoPiGo: Create new Scratch Program - example: broadcast forward
-
 - [ ] GoPiGo3: Run the hardware test - ~/Dexter/GoPiGo3/Software/Python/Examples/Read_Info.py
 - [ ] GoPiGo3: Run a Python Example
 - [ ] GoPiGo3: Run a  Scratch Example
 - [ ] GoPiGo3: Test that `gopigo3_power.py` is running in the background when GoPiGo3 is attached.
 - [ ] GoPiGo3: Test that you can power on and off with the button.
-
 - [ ] BrickPi3: Run the BrickPi3 Test - BrickPi3/Software/Python/Examples/Read_Info.py
 - [ ] BrickPi3: Run Scratch Example Program
 - [ ] BrickPi3: Create new Scratch program
-
 - [ ] Arduberry: Check that Arduino IDE is 1.6.0 and test that Serial Echo with Hello world works
-
 - [ ] BrickPi: Run the BrickPi Hardware Test - BrickPi_Python/Sensor_Examples/BrickPi_Hardware_Test.py
 - [ ] BrickPi+: Run Scratch Example Program
 - [ ] BrickPi+: Create new Scratch program - example: broadcast MAE, broadcast MA200
