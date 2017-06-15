@@ -103,6 +103,57 @@
 						{"image":"closerighteye.gif"}
 					]
 				}
+			]},
+			{"column":[
+				{"BlockTitle":"Set Both Eyes to red",
+					"Block":[
+						{"image":"botheyesred.gif"}
+					]
+				},
+				{"BlockTitle":"Set Left Eye with RGB color",
+					"Block":[
+						{"image":"lefteyergb.gif"}
+					]
+				},
+				{"BlockTitle":"Set Right Eye with HTML color",
+					"Block":[
+						{"image":"righteyehtml.gif"}
+					]
+				}
+			]},
+			{"column":[
+				{"BlockTitle":"Set Blinkers On",
+					"Block":[
+						{"image":"blinkerson.gif"}
+					]
+				},
+				{"BlockTitle":"Set Left Blinker On",
+					"Block":[
+						{"image":"leftblinkeron.gif"}
+					]
+				},
+				{"BlockTitle":"Set Right Blinker On",
+					"Block":[
+						{"image":"rightblinkeron.gif"}
+					]
+				}
+			]},
+			{"column":[
+				{"BlockTitle":"Set Blinkers Off",
+					"Block":[
+						{"image":"blinkersoff.gif"}
+					]
+				},
+				{"BlockTitle":"Set Left Blinker Off",
+					"Block":[
+						{"image":"leftblinkeroff.gif"}
+					]
+				},
+				{"BlockTitle":"Set Right Blinker Off",
+					"Block":[
+						{"image":"rightblinkeroff.gif"}
+					]
+				}
 			]}
 		]
 	}
