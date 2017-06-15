@@ -31,7 +31,7 @@ x = 0
 y = 1
 
 robot=str(sys.argv[1]).lower()
-if not robot in ["gopigo","brickpi","grovepi","pivotpi" ]:
+if not robot in ["gopigo3","gopigo","brickpi","grovepi","pivotpi" ]:
 	print("Robot not recognised: {}".format(sys.argv[1]))
 	exit()
 

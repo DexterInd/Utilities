@@ -1,0 +1,110 @@
+{
+	"Commands":{
+
+		"TopSection": "GoPiGo3 Commands",
+
+		"Columns":[
+
+			{"column":[
+
+				{"BlockTitle":"Move the GoPiGo3 Forward",
+					"Block":[
+						{"image":"forward.gif",
+						 "legend":"forward until stopped"}
+					]
+				},
+				{"BlockTitle":"Move Forward by 20 cm",
+					"Block":[					
+						{"image":"forward20cm.gif",
+						 "legend":"forward 20 cm"}
+					]
+				},
+				{"BlockTitle":"Move Forward by 10 inches",
+					"Block":[					
+						{"image":"forward10inches.gif",
+						 "legend":"forward 10 inches"}
+					]
+				}
+
+			]},
+
+			{"column":[			
+
+				{"BlockTitle":"Move the GoPiGo Backward",
+					"Block":[
+						{"image":"backward.gif"}
+					]
+				},
+				{"BlockTitle":"Move Back by 20 cm",
+					"Block":[					
+							{"image":"backward20cm.gif"}
+					]
+				},
+				{"BlockTitle":"Move Back by 10 inches",
+					"Block":[					
+						{"image":"backward10inches.gif",
+						 "legend":"backward10inches"}
+					]
+				}
+			]},
+			{"column":[
+				{"BlockTitle":"Stop the GoPiGo",
+					"Block":[
+						{"image": "stop.gif"}
+					]
+				},
+				{"BlockTitle":"Reset the GoPiGo",
+					"Block":[
+						{"image": "reset.gif"}
+					]
+				},
+				{"BlockTitle":"Change Speed to 300",
+					"Block":[
+						{"image": "speed.gif"}
+					]
+				}			
+			]}
+		]
+	},
+	
+	"LEDS":{
+		"TopSection": "GoPiGo3 LEDS",
+		"Columns":[
+			{"column":[
+				{"BlockTitle":"Open Both Eyes",
+					"Block":[
+						{"image":"openeyes.gif"}
+					]
+				},
+				{"BlockTitle":"Open Left Eye",
+					"Block":[
+						{"image":"openlefteye.gif"}
+					]
+				},
+				{"BlockTitle":"Open Right Eye",
+					"Block":[
+						{"image":"openrighteye.gif"}
+					]
+				}
+			]},
+			{"column":[
+				{"BlockTitle":"Close Both Eyes",
+					"Block":[
+						{"image":"closeeyes.gif"}
+					]
+				},
+				{"BlockTitle":"Close Left Eye",
+					"Block":[
+						{"image":"closelefteye.gif"}
+					]
+				},
+				{"BlockTitle":"Close Right Eye",
+					"Block":[
+						{"image":"closerighteye.gif"}
+					]
+				}
+			]}
+		]
+	}
+
+}
