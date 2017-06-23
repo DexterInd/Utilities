@@ -203,6 +203,11 @@
 					"Block":[
 						{"image":"led50.gif"}
 					]
+				},
+				{"BlockTitle":"Light sensor in port AD1",
+					"Block":[
+						{"image":"lightAD1.gif"}
+					]
 				}
 			]},
 			{"column":[
@@ -220,6 +225,11 @@
 					"Block":[
 						{"image":"buzzerad190.gif"}
 					]
+				},
+				{"BlockTitle":"Touch/Button Port AD1",
+					"Block":[
+						{"image":"button.gif"}
+					]
 				}
 			]},	
 			{"column":[
@@ -232,21 +242,7 @@
 					"Block":[
 						{"image":"buzzerad190.gif"}
 					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Light sensor in port AD1",
-					"Block":[
-						{"image":"lightAD1.gif"}
-					]
 				},
-				{"BlockTitle":"Touch/Button Port AD1",
-					"Block":[
-						{"image":"button.gif"}
-					]
-				}
-			]},
-			{"column":[
 				{"BlockTitle":"Humidity and Temperature (Serial port)",
 					"Block":[
 						{"image":"dht.gif"}
@@ -262,6 +258,23 @@
 				{"BlockTitle":"Synchronized Servos to 90 degrees",
 					"Block":[
 						{"image":"servosync.gif"}
+					]
+				}
+			]},
+			{"column":[
+				{"BlockTitle":"Set Photo Folder",
+					"Block":[
+						{"image":"folder.gif"}
+					]
+				},
+				{"BlockTitle":"Take a Picture",
+					"Block":[
+						{"image":"camera.gif"}
+					]
+				},
+				{"BlockTitle":"Speak out loud",
+					"Block":[
+						{"image":"speak.gif"}
 					]
 				}
 			]}
