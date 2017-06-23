@@ -19,7 +19,10 @@ def setColumnWidth(nbcolumns):
 	'''
 	global columnWidth
 	columnWidth = imagesize[x] / nbcolumns
-	columnWidth = 250
+	if nbcolumns == 6:
+		columnWidth = 300
+	else:	
+		columnWidth = 300
 	print ("Setting columnWidth to {}".format(columnWidth))
 
 imagesize=(1900,1900)
@@ -31,7 +34,7 @@ x = 0
 y = 1
 
 robot=str(sys.argv[1]).lower()
-if not robot in ["gopigo","brickpi","grovepi","pivotpi" ]:
+if not robot in ["gopigo3","gopigo","brickpi","grovepi","pivotpi" ]:
 	print("Robot not recognised: {}".format(sys.argv[1]))
 	exit()
 
