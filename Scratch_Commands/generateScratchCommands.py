@@ -19,10 +19,17 @@ def setColumnWidth(nbcolumns):
 	'''
 	global columnWidth
 	columnWidth = imagesize[x] / nbcolumns
+<<<<<<< HEAD
+	if nbcolumns == 5:
+		columnWidth = 300
+	else:	
+		columnWidth = 320
+=======
 	if nbcolumns == 6:
 		columnWidth = 300
 	else:	
 		columnWidth = 300
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 	print ("Setting columnWidth to {}".format(columnWidth))
 
 imagesize=(1900,1900)

@@ -17,6 +17,51 @@
 					"Block":[
 						{"image":"backward.gif"}
 					]
+<<<<<<< HEAD
+				},
+				{"BlockTitle":"Stop the GoPiGo",
+					"Block":[
+						{"image": "stop.gif"}
+					]
+				},
+				{"BlockTitle":"Reset the GoPiGo",
+					"Block":[
+						{"image": "reset.gif"}
+					]
+				},
+				{"BlockTitle":"Change Speed to 300",
+					"Block":[
+						{"image": "speed.gif"}
+					]
+				}
+			]},
+			{"column":[	
+				{"BlockTitle":"Turn to the right",
+					"Block":[
+						{"image":"right.gif"}
+					]
+				},
+				{"BlockTitle":"turn to the left",
+					"Block":[					
+						{"image":"left.gif"}
+					]
+				},
+				{"BlockTitle":"turn right 90 degrees",
+					"Block":[					
+							{"image":"right90.gif"}
+					]
+				},
+				{"BlockTitle":"turn right 5 seconds",
+					"Block":[					
+							{"image":"right5seconds.gif"}
+					]
+				},
+				{"BlockTitle":"turn left for 1 robot rotation",
+					"Block":[					
+						{"image":"left1rotation.gif"}
+					]
+=======
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				}
 			]},
 
@@ -32,9 +77,13 @@
 					"Block":[					
 							{"image":"backward10cm.gif"}
 					]
+<<<<<<< HEAD
+				},
+=======
 				}
 			]},
 			{"column":[	
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				{"BlockTitle":"Move Forward by 10 inches",
 					"Block":[					
 						{"image":"forward10inches.gif",
@@ -46,6 +95,45 @@
 						{"image":"backward10in.gif",
 						 "legend":"backward10inches"}
 					]
+<<<<<<< HEAD
+				},
+				{"BlockTitle":"Move Forward by 1 wheel rotation",
+					"Block":[					
+						{"image":"forward1rotation.gif"}
+					]
+				}
+				
+			]},
+
+			{"column":[	
+				{"BlockTitle":"Move Forward for 10 seconds",
+					"Block":[					
+						{"image":"forward10seconds.gif"}
+					]
+				},
+				{"BlockTitle":"Move Backward for 1 second",
+					"Block":[					
+						{"image":"backward1second.gif"}
+					]
+				},
+				{"BlockTitle":"turn wheels forward by 180 degrees",
+					"Block":[					
+						{"image":"forward180degrees.gif"}
+					]
+				},
+				{"BlockTitle":"turn wheels back by 180 degrees",
+					"Block":[					
+						{"image":"backward180degrees.gif"}
+					]
+				},
+				{"BlockTitle":"Move Back by 1 wheel rotation",
+					"Block":[					
+						{"image":"backward1rotation.gif"}
+					]
+				}
+			]}
+
+=======
 				}
 			]},
 			{"column":[			
@@ -91,6 +179,7 @@
 					]
 				}			
 			]}
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 		]
 	},
 	
@@ -188,6 +277,10 @@
 	"Sensors":{
 		"TopSection": "GoPiGo3 Sensors",
 		"Columns":[
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 			{"column":[
 				{"BlockTitle":"turn grove LED in port AD1 on",
 					"Block":[
@@ -233,20 +326,42 @@
 				}
 			]},	
 			{"column":[
+<<<<<<< HEAD
+				{"BlockTitle":"ultrasonic distance sensor in port AD1",
+					"Block":[
+						{"image":"ultrasonicdistance.gif"}
+					]
+				},
+=======
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				{"BlockTitle":"Distance Sensor (I2C)",
 					"Block":[
 						{"image":"dexter_distance.gif"}
 					]
 				},
+<<<<<<< HEAD
+				{"BlockTitle":"Line Follower (I2C)",
+					"Block":[
+						{"image":"line.gif"}
+=======
 				{"BlockTitle":"ultrasonic distance sensor in port AD1",
 					"Block":[
 						{"image":"buzzerad190.gif"}
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 					]
 				},
 				{"BlockTitle":"Humidity and Temperature (Serial port)",
 					"Block":[
 						{"image":"dht.gif"}
 					]
+<<<<<<< HEAD
+				},
+				{"BlockTitle":"Speak out loud",
+					"Block":[
+						{"image":"speak.gif"}
+					]
+=======
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				}
 			]},
 			{"column":[
@@ -259,9 +374,13 @@
 					"Block":[
 						{"image":"servosync.gif"}
 					]
+<<<<<<< HEAD
+				},
+=======
 				}
 			]},
 			{"column":[
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				{"BlockTitle":"Set Photo Folder",
 					"Block":[
 						{"image":"folder.gif"}
@@ -271,11 +390,14 @@
 					"Block":[
 						{"image":"camera.gif"}
 					]
+<<<<<<< HEAD
+=======
 				},
 				{"BlockTitle":"Speak out loud",
 					"Block":[
 						{"image":"speak.gif"}
 					]
+>>>>>>> 8ab5dace5279a3acac40b9b25317d4a648f575da
 				}
 			]}
 		]
