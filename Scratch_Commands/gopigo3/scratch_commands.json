@@ -1,321 +1,378 @@
 {
-	"Commands":{
+    "Commands":{
 
-		"TopSection": "GoPiGo3 Commands",
+        "TopSection": "GoPiGo3 Commands",
 
-		"Columns":[
+        "Columns":[
 
-			{"column":[
+            {"column":[
 
-				{"BlockTitle":"Move the GoPiGo3 Forward",
-					"Block":[
-						{"image":"forward.gif",
-						 "legend":"forward until stopped"}
-					]
-				},
-				{"BlockTitle":"Move the GoPiGo Backward",
-					"Block":[
-						{"image":"backward.gif"}
-					]
-				},
-				{"BlockTitle":"Stop the GoPiGo",
-					"Block":[
-						{"image": "stop.gif"}
-					]
-				},
-				{"BlockTitle":"Reset the GoPiGo",
-					"Block":[
-						{"image": "reset.gif"}
-					]
-				},
-				{"BlockTitle":"Change Speed to 300",
-					"Block":[
-						{"image": "speed.gif"}
-					]
-				}
-			]},
-			{"column":[	
-				{"BlockTitle":"Turn to the right",
-					"Block":[
-						{"image":"right.gif"}
-					]
-				},
-				{"BlockTitle":"turn to the left",
-					"Block":[					
-						{"image":"left.gif"}
-					]
-				},
-				{"BlockTitle":"turn right 90 degrees",
-					"Block":[					
-							{"image":"right90.gif"}
-					]
-				},
-				{"BlockTitle":"turn right 5 seconds",
-					"Block":[					
-							{"image":"right5seconds.gif"}
-					]
-				},
-				{"BlockTitle":"turn left for 1 robot rotation",
-					"Block":[					
-						{"image":"left1rotation.gif"}
-					]
-				}
-			]},
+                {"BlockTitle":"Move the GoPiGo3 Forward",
+                    "Block":[
+                        {"image":"forward.gif",
+                         "legend":"forward until stopped"}
+                    ]
+                },
+                {"BlockTitle":"Move the GoPiGo Backward",
+                    "Block":[
+                        {"image":"backward.gif"}
+                    ]
+                },
+                {"BlockTitle":"Stop the GoPiGo",
+                    "Block":[
+                        {"image": "stop.gif"}
+                    ]
+                },
+                {"BlockTitle":"Reset the GoPiGo",
+                    "Block":[
+                        {"image": "reset.gif"}
+                    ]
+                },
+                {"BlockTitle":"Change Speed to 300",
+                    "Block":[
+                        {"image": "speed.gif"}
+                    ]
+                }
+            ]},
+            {"column":[	
+                {"BlockTitle":"Turn to the right",
+                    "Block":[
+                        {"image":"right.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn to the left",
+                    "Block":[					
+                        {"image":"left.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn right 90 degrees",
+                    "Block":[					
+                            {"image":"right90.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn right 5 seconds",
+                    "Block":[					
+                            {"image":"right5seconds.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn left for 1 robot rotation",
+                    "Block":[					
+                        {"image":"left1rotation.gif"}
+                    ]
+                }
+            ]},
 
-			{"column":[			
+            {"column":[			
 
-				{"BlockTitle":"Move Forward by 10 cm",
-					"Block":[					
-						{"image":"forward10cm.gif",
-						 "legend":"forward 10 cm"}
-					]
-				},
-				{"BlockTitle":"Move Back by 10 cm",
-					"Block":[					
-							{"image":"backward10cm.gif"}
-					]
+                {"BlockTitle":"Move Forward by 10 cm",
+                    "Block":[					
+                        {"image":"forward10cm.gif",
+                         "legend":"forward 10 cm"}
+                    ]
+                },
+                {"BlockTitle":"Move Back by 10 cm",
+                    "Block":[					
+                            {"image":"backward10cm.gif"}
+                    ]
 
-				},
-				{"BlockTitle":"Move Forward by 10 inches",
-					"Block":[					
-						{"image":"forward10inches.gif",
-						 "legend":"forward 10 inches"}
-					]
-				},
-				{"BlockTitle":"Move Back by 10 inches",
-					"Block":[					
-						{"image":"backward10in.gif",
-						 "legend":"backward10inches"}
-					]
-				},
-				{"BlockTitle":"Move Forward by 1 wheel rotation",
-					"Block":[					
-						{"image":"forward1rotation.gif"}
-					]
-				}
-				
-			]},
+                },
+                {"BlockTitle":"Move Forward by 10 inches",
+                    "Block":[					
+                        {"image":"forward10inches.gif",
+                         "legend":"forward 10 inches"}
+                    ]
+                },
+                {"BlockTitle":"Move Back by 10 inches",
+                    "Block":[					
+                        {"image":"backward10in.gif",
+                         "legend":"backward10inches"}
+                    ]
+                },
+                {"BlockTitle":"Move Forward by 1 wheel rotation",
+                    "Block":[					
+                        {"image":"forward1rotation.gif"}
+                    ]
+                }
+            ]},
 
-			{"column":[	
-				{"BlockTitle":"Move Forward for 10 seconds",
-					"Block":[					
-						{"image":"forward10seconds.gif"}
-					]
-				},
-				{"BlockTitle":"Move Backward for 1 second",
-					"Block":[					
-						{"image":"backward1second.gif"}
-					]
-				},
-				{"BlockTitle":"turn wheels forward by 180 degrees",
-					"Block":[					
-						{"image":"forward180degrees.gif"}
-					]
-				},
-				{"BlockTitle":"turn wheels back by 180 degrees",
-					"Block":[					
-						{"image":"backward180degrees.gif"}
-					]
-				},
-				{"BlockTitle":"Move Back by 1 wheel rotation",
-					"Block":[					
-						{"image":"backward1rotation.gif"}
-					]
-				}
-			]}
+            {"column":[	
+                {"BlockTitle":"Move Forward for 10 seconds",
+                    "Block":[					
+                        {"image":"forward10seconds.gif"}
+                    ]
+                },
+                {"BlockTitle":"Move Backward for 1 second",
+                    "Block":[					
+                        {"image":"backward1second.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn wheels forward by 180 degrees",
+                    "Block":[					
+                        {"image":"forward180degrees.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn wheels back by 180 degrees",
+                    "Block":[					
+                        {"image":"backward180degrees.gif"}
+                    ]
+                },
+                {"BlockTitle":"Move Back by 1 wheel rotation",
+                    "Block":[					
+                        {"image":"backward1rotation.gif"}
+                    ]
+                }
+            ]}
 
-		]
-	},
-	
-	"LEDS":{
-		"TopSection": "GoPiGo3 LEDS",
-		"Columns":[
-			{"column":[
-				{"BlockTitle":"Open Both Eyes",
-					"Block":[
-						{"image":"openeyes.gif"}
-					]
-				},
-				{"BlockTitle":"Open Left Eye",
-					"Block":[
-						{"image":"openlefteye.gif"}
-					]
-				},
-				{"BlockTitle":"Open Right Eye",
-					"Block":[
-						{"image":"openrighteye.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Close Both Eyes",
-					"Block":[
-						{"image":"closeeyes.gif"}
-					]
-				},
-				{"BlockTitle":"Close Left Eye",
-					"Block":[
-						{"image":"closelefteye.gif"}
-					]
-				},
-				{"BlockTitle":"Close Right Eye",
-					"Block":[
-						{"image":"closerighteye.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Set Both Eyes to red",
-					"Block":[
-						{"image":"botheyesred.gif"}
-					]
-				},
-				{"BlockTitle":"Set Left Eye with RGB color",
-					"Block":[
-						{"image":"lefteyergb.gif"}
-					]
-				},
-				{"BlockTitle":"Set Right Eye with HTML color",
-					"Block":[
-						{"image":"righteyehtml.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Set Blinkers On",
-					"Block":[
-						{"image":"blinkerson.gif"}
-					]
-				},
-				{"BlockTitle":"Set Left Blinker On",
-					"Block":[
-						{"image":"leftblinkeron.gif"}
-					]
-				},
-				{"BlockTitle":"Set Right Blinker On",
-					"Block":[
-						{"image":"rightblinkeron.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Set Blinkers Off",
-					"Block":[
-						{"image":"blinkersoff.gif"}
-					]
-				},
-				{"BlockTitle":"Set Left Blinker Off",
-					"Block":[
-						{"image":"leftblinkeroff.gif"}
-					]
-				},
-				{"BlockTitle":"Set Right Blinker Off",
-					"Block":[
-						{"image":"rightblinkeroff.gif"}
-					]
-				}
-			]}
-		]
-	},
-	
-	"Sensors":{
-		"TopSection": "GoPiGo3 Sensors",
-		"Columns":[
+        ]
+    },
+    
+    "LEDS":{
+        "TopSection": "GoPiGo3 LEDS",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Open Both Eyes",
+                    "Block":[
+                        {"image":"openeyes.gif"}
+                    ]
+                },
+                {"BlockTitle":"Open Left Eye",
+                    "Block":[
+                        {"image":"openlefteye.gif"}
+                    ]
+                },
+                {"BlockTitle":"Open Right Eye",
+                    "Block":[
+                        {"image":"openrighteye.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Close Both Eyes",
+                    "Block":[
+                        {"image":"closeeyes.gif"}
+                    ]
+                },
+                {"BlockTitle":"Close Left Eye",
+                    "Block":[
+                        {"image":"closelefteye.gif"}
+                    ]
+                },
+                {"BlockTitle":"Close Right Eye",
+                    "Block":[
+                        {"image":"closerighteye.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Set Both Eyes to red",
+                    "Block":[
+                        {"image":"botheyesred.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Left Eye with RGB color",
+                    "Block":[
+                        {"image":"lefteyergb.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Right Eye with HTML color",
+                    "Block":[
+                        {"image":"righteyehtml.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Set Blinkers On",
+                    "Block":[
+                        {"image":"blinkerson.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Left Blinker On",
+                    "Block":[
+                        {"image":"leftblinkeron.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Right Blinker On",
+                    "Block":[
+                        {"image":"rightblinkeron.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Set Blinkers Off",
+                    "Block":[
+                        {"image":"blinkersoff.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Left Blinker Off",
+                    "Block":[
+                        {"image":"leftblinkeroff.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Right Blinker Off",
+                    "Block":[
+                        {"image":"rightblinkeroff.gif"}
+                    ]
+                }
+            ]}
+        ]
+    },
 
-			{"column":[
-				{"BlockTitle":"turn grove LED in port AD1 on",
-					"Block":[
-						{"image":"ledon.gif"}
-					]
-				},
-				{"BlockTitle":"turn grove LED in port AD1 off",
-					"Block":[
-						{"image":"ledoff.gif"}
-					]
-				},
-				{"BlockTitle":"set grove LED in port AD1 to 50%",
-					"Block":[
-						{"image":"led50.gif"}
-					]
-				},
-				{"BlockTitle":"Light sensor in port AD1",
-					"Block":[
-						{"image":"lightAD1.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"turn buzzer in port AD1 on",
-					"Block":[
-						{"image":"buzzerad1.gif"}
-					]
-				},
-				{"BlockTitle":"turn buzzer in port AD1 off",
-					"Block":[
-						{"image":"buzzerAD1off.gif"}
-					]
-				},
-				{"BlockTitle":"set buzzer in port AD1 to 90",
-					"Block":[
-						{"image":"buzzerad190.gif"}
-					]
-				},
-				{"BlockTitle":"Touch/Button Port AD1",
-					"Block":[
-						{"image":"button.gif"}
-					]
-				}
-			]},	
-			{"column":[
-				{"BlockTitle":"ultrasonic distance sensor in port AD1",
-					"Block":[
-						{"image":"ultrasonicdistance.gif"}
-					]
-				},
-				{"BlockTitle":"Distance Sensor (I2C)",
-					"Block":[
-						{"image":"dexter_distance.gif"}
-					]
-				},
-				{"BlockTitle":"Line Follower (I2C)",
-					"Block":[
-						{"image":"line.gif"}
-					]
-				},
-				{"BlockTitle":"Humidity and Temperature (Serial port)",
-					"Block":[
-						{"image":"dht.gif"}
-					]
-				},
-				{"BlockTitle":"Speak out loud",
-					"Block":[
-						{"image":"speak.gif"}
-					]
-				}
-			]},
-			{"column":[
-				{"BlockTitle":"Servo 1 to 90 and Servo 2 to 45",
-					"Block":[
-						{"image":"servo1_servo2.gif"}
-					]
-				},
-				{"BlockTitle":"Synchronized Servos to 90 degrees",
-					"Block":[
-						{"image":"servosync.gif"}
-					]
-				},
-				{"BlockTitle":"Set Photo Folder",
-					"Block":[
-						{"image":"folder.gif"}
-					]
-				},
-				{"BlockTitle":"Take a Picture",
-					"Block":[
-						{"image":"camera.gif"}
-					]
-				}
-			]}
-		]
-	}
+    "Dexter Sensors":{
+        "TopSection": "GoPiGo3 DexterInd Sensors",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Distance Sensor (I2C)",
+                    "Block":[
+                        {"image":"dexter_distance.gif"}
+                    ]
+                },
+                {"BlockTitle":"Light/Color Sensor: light (I2C)",
+                    "Block":[
+                        {"image":"light.gif"}
+                    ]
+                }
+                ]},
+            {"column":[
+                {"BlockTitle":"Light/Color Sensor: color (I2C)",
+                    "Block":[
+                        {"image":"color.gif"}
+                    ]
+                },
+                {"BlockTitle":"Light/Color Sensor: rgb (I2C)",
+                    "Block":[
+                        {"image":"rgb.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Line Follower Position(I2C)",
+                    "Block":[
+                        {"image":"line.gif"}
+                    ]
+                },
+                {"BlockTitle":"Line Follower Number (I2C)",
+                    "Block":[
+                        {"image":"linenumber.gif"}
+                    ]
+                }
+                ]},
+                {"column":[
+                {"BlockTitle":"Line Sensors BW (I2C)",
+                    "Block":[
+                        {"image":"linebw.gif"}
+                    ]
+                },
+                {"BlockTitle":"Line Sensors number (I2C)",
+                    "Block":[
+                        {"image":"linesensor.gif"}
+                    ]
+                }
+            ]}
+        ]
+    },
+    "Seeed Sensors":{
+        "TopSection": "GoPiGo3 Other Add-Ons",
+        "Columns":[
 
+            {"column":[
+                {"BlockTitle":"turn grove LED in port AD1 on",
+                    "Block":[
+                        {"image":"ledon.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn grove LED in port AD1 off",
+                    "Block":[
+                        {"image":"ledoff.gif"}
+                    ]
+                },
+                {"BlockTitle":"set grove LED in port AD1 to 50%",
+                    "Block":[
+                        {"image":"led50.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"turn buzzer in port AD1 on",
+                    "Block":[
+                        {"image":"buzzerad1.gif"}
+                    ]
+                },
+                {"BlockTitle":"turn buzzer in port AD1 off",
+                    "Block":[
+                        {"image":"buzzerAD1off.gif"}
+                    ]
+                },
+                {"BlockTitle":"set buzzer in port AD1 to 90",
+                    "Block":[
+                        {"image":"buzzerad190.gif"}
+                    ]
+                }
+            ]},	
+            {"column":[
+                {"BlockTitle":"Servo 1 to 90 and Servo 2 to 45",
+                    "Block":[
+                        {"image":"servo1_servo2.gif"}
+                    ]
+                },
+                {"BlockTitle":"Synchronized Servos to 90 degrees",
+                    "Block":[
+                        {"image":"servosync.gif"}
+                    ]
+                },
+                {"BlockTitle":"Touch/Button Port AD1",
+                    "Block":[
+                        {"image":"button.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Speak out loud",
+                    "Block":[
+                        {"image":"speak.gif"}
+                    ]
+                },
+                {"BlockTitle":"Set Photo Folder",
+                    "Block":[
+                        {"image":"folder.gif"}
+                    ]
+                },
+                {"BlockTitle":"Take a Picture",
+                    "Block":[
+                        {"image":"camera.gif"}
+                    ]
+                },
+                {"BlockTitle":"Loudness Sensor on AD1",
+                    "Block":[
+                        {"image":"loudness.gif"}
+                    ]
+                }
+            ]}
+        ]
+    },
+
+    "DeprecatedSensors":{
+        "TopSection": "Deprecated Sensors",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Ultrasonic distance sensor in port AD1",
+                    "Block":[
+                        {"image":"ultrasonicdistance.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Light sensor in port AD1",
+                    "Block":[
+                        {"image":"lightAD1.gif"}
+                    ]
+                }
+            ]},
+            {"column":[
+                {"BlockTitle":"Humidity and Temperature (Serial port)",
+                    "Block":[
+                        {"image":"dht.gif"}
+                    ]
+                }
+            ]}
+        ]}
 }
