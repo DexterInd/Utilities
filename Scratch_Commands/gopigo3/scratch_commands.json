@@ -340,6 +340,11 @@
                     "Block":[
                         {"image":"camera.gif"}
                     ]
+                },
+                {"BlockTitle":"Loudness Sensor on AD1",
+                    "Block":[
+                        {"image":"loudness.gif"}
+                    ]
                 }
             ]}
         ]
