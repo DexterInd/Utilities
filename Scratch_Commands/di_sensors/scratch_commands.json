@@ -1,0 +1,85 @@
+{
+    "Temperature Humidity Pressure":{
+        "TopSection": "Temperature Humidity Pressure Sensor",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Temperature Readings ",
+                    "Block":[
+                        {"image":"temp3.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":" Pressure Reading",
+                    "Block":[
+                        {"image":"pressure2.gif"}
+                    ]
+                    }]},
+            {"column":[
+                {"BlockTitle":"Humidity Reading",
+                    "Block":[
+                        {"image": "humidity2.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"All THP Readings",
+                    "Block":[
+                        {"image": "thp2.gif"}
+                    ]
+                }
+            ]}
+        ]},
+
+    "Line Follower":{
+        "TopSection": "Line Follower",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Line Follower Position",
+                    "Block":[
+                        {"image":"line_word2.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"Line Follower Values",
+                    "Block":[					
+                            {"image":"line_number2.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"Line Follower BW",
+                    "Block":[					
+                            {"image":"line_bw.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"Individual Sensor",
+                    "Block":[					
+                            {"image":"line_raw_sensor.gif"}
+                    ]
+                }
+            ]}
+        ]
+    },
+    "Light Color Sensor":{
+        "TopSection": "Light & Color",
+        "Columns":[
+            {"column":[
+                {"BlockTitle":"Light",
+                    "Block":[
+                        {"image":"light_reading.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"Color",
+                    "Block":[
+                            {"image":"color_name.gif"}
+                    ]
+                }]},
+            {"column":[
+                {"BlockTitle":"RGB readings",
+                    "Block":[					
+                            {"image":"rgb.gif"}
+                    ]
+                }]}
+        ]
+    }
+}
